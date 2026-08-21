@@ -22,7 +22,15 @@ Edit `privacy-policy.md` or `terms-of-service.md` directly and push to the `main
 Sorasaki Hina is a Discord bot featuring:
 - Music playback (SoundCloud / Lavalink)
 - AI chat assistant (powered by Google Gemini)
-- Server moderation tools
+- Moderation tools (`/mod warn`, `/mod timeout`, `/mod kick`, `/mod ban`)
+- AutoMod — automatic detection of banned words, spam, and mention spam, with an owner-configurable auto-punishment system (`/automod warnpunish`) that can automatically timeout, kick, or ban a member after a set number of warnings
 - Reminders, server/user info, and mini-games
 
 This repository contains only the legal/policy pages — not the bot's source code.
+
+## 📝 Changelog
+
+**August 21, 2026**
+- Merged the moderation and AutoMod systems into one
+- Added `/automod warnpunish` (server owner only) — automatic timeout/kick/ban after N warnings
+- Updated Privacy Policy and Terms of Service to reflect AutoMod data collection and the new auto-punishment feature
