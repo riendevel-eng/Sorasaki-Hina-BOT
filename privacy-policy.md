@@ -1,6 +1,6 @@
 # Privacy Policy — Sorasaki Hina Bot
 
-**Last updated:** August 21, 2026
+**Last updated:** August 22, 2026
 
 This Privacy Policy explains what data the Sorasaki Hina Discord bot ("the Bot," "we," "us") collects, how it is used, and your rights regarding that data. By adding the Bot to your Discord server or interacting with it, you agree to the practices described here.
 
@@ -13,8 +13,8 @@ We collect and store the following data, only as needed to operate the Bot's fea
 | Discord User ID | Identify who sent a command/message | AI chat, warnings, reminders, economy features |
 | Discord Guild (Server) ID | Keep data scoped per-server | AI chat history, warnings, reminders, AutoMod config |
 | Discord Channel ID | Deliver reminders and AutoMod alerts to the correct channel | `/remind`, `/automod setup` |
-| Message content you send to the Bot | Generate AI responses | AI chat feature (Gemini) |
-| Image attachments you send to the Bot | Analyze images when requested | AI chat feature (Gemini) |
+| Message content you send to the Bot | Generate AI responses | AI chat feature (Groq) |
+| Image attachments you send to the Bot | Analyze images when requested | AI chat feature (Groq) |
 | Conversation history (your messages + Bot's replies) | Maintain context across a conversation | AI chat feature |
 | Moderation records (warnings, reason, moderator tag) | Track moderation history per server, including warnings logged automatically by AutoMod | `/mod warn`, AutoMod |
 | AutoMod configuration | Store which rules are enabled, the alert channel, violation thresholds, and any auto-punishment settings (auto-timeout, auto-kick, auto-ban) configured by the server owner | `/automod` |
@@ -25,7 +25,7 @@ We do **not** collect passwords, payment details, or Discord account credentials
 
 ## 2. Third-Party Services
 
-- **Google Gemini API**: When you use the AI chat feature or `/summarize`, your message text and any attached images are sent to Google's Gemini API to generate a response. This is subject to [Google's Privacy Policy](https://policies.google.com/privacy). Do not send sensitive personal information (financial data, health information, government ID numbers, etc.) through this feature.
+- **Groq API**: When you use the AI chat feature or `/summarize`, your message text and any attached images are sent to Groq's API to generate a response using open-weight AI models (e.g. Qwen). This is subject to [Groq's Privacy Policy](https://groq.com/privacy-policy/). Do not send sensitive personal information (financial data, health information, government ID numbers, etc.) through this feature.
 - **SoundCloud / Lavalink audio nodes**: When you use `/play`, search queries and track URLs are sent to resolve and stream audio. No personal data beyond the query itself is transmitted.
 - **YouTube oEmbed**: When a YouTube link is provided to `/play`, we fetch only the public video title via YouTube's oEmbed endpoint (no account data).
 
@@ -47,7 +47,7 @@ We do **not** collect passwords, payment details, or Discord account credentials
 ## 5. Data Sharing
 
 We do not sell, rent, or share your data with third parties, except:
-- As required to operate the features above (Google Gemini, SoundCloud/Lavalink, YouTube oEmbed).
+- As required to operate the features above (Groq, SoundCloud/Lavalink, YouTube oEmbed).
 - If required by law, legal process, or to protect the rights, safety, and property of the Bot's operators or others.
 
 ## 6. Children's Privacy

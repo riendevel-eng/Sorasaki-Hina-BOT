@@ -1,6 +1,6 @@
 # Terms of Service — Sorasaki Hina Bot
 
-**Last updated:** August 21, 2026
+**Last updated:** August 22, 2026
 
 Please read these Terms of Service ("Terms") carefully before using the Sorasaki Hina Discord bot ("the Bot," "we," "us"). By inviting the Bot to a server or interacting with it, you agree to be bound by these Terms. If you do not agree, do not use the Bot.
 
@@ -8,7 +8,7 @@ Please read these Terms of Service ("Terms") carefully before using the Sorasaki
 
 The Bot provides the following features to Discord servers it is added to:
 - Music playback (`/play`, `/pause`, `/skip`, `/queue`, etc.) via SoundCloud and Lavalink audio streaming.
-- An AI chat assistant powered by Google's Gemini API, invoked by mentioning the Bot or the word "Hina," including text summarization (`/summarize`) and image analysis.
+- An AI chat assistant powered by Groq's API (running open-weight AI models), invoked by mentioning the Bot or the word "Hina," including text summarization (`/summarize`) and image analysis.
 - Server moderation tools (`/mod warn`, `/mod timeout`, `/mod kick`, `/mod ban`) usable only by members with the corresponding Discord permissions.
 - An AutoMod system (`/automod`) that automatically detects rule-breaking messages (banned words, spam, mention spam) and can log warnings or take automatic action.
 - Owner-configurable automatic punishment (`/automod warnpunish`): the server owner can set a warning threshold after which a member is automatically timed out, kicked, or banned.
@@ -31,7 +31,7 @@ Violation of these Terms may result in the Bot refusing to respond to you, or be
 
 ## 4. AI-Generated Content Disclaimer
 
-Responses generated via the AI chat feature (powered by Google Gemini) are produced by a third-party AI model and are provided "as is." AI responses:
+Responses generated via the AI chat feature (powered by Groq, using open-weight AI models) are produced by a third-party AI model and are provided "as is." AI responses:
 - May be inaccurate, incomplete, or inappropriate in some cases.
 - Do not represent factual, legal, medical, financial, or professional advice.
 - Should not be relied upon for decisions with real-world consequences without independent verification.
@@ -50,7 +50,7 @@ Music playback relies on third-party services (SoundCloud, Lavalink nodes). We d
 
 ## 7. Availability
 
-The Bot is provided on an "as available" basis. We do not guarantee uninterrupted uptime, and features (including music playback, AI chat, AutoMod, and reminders) may be delayed, unavailable, or discontinued at any time without notice, including due to third-party service outages (e.g., Google Gemini, Lavalink nodes, SoundCloud).
+The Bot is provided on an "as available" basis. We do not guarantee uninterrupted uptime, and features (including music playback, AI chat, AutoMod, and reminders) may be delayed, unavailable, or discontinued at any time without notice, including due to third-party service outages (e.g., Groq, Lavalink nodes, SoundCloud).
 
 ## 8. Limitation of Liability
 
